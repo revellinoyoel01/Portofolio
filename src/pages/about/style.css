@@ -1,0 +1,109 @@
+.about-section {
+    padding: 60px 0;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .section-header h1 {
+    font-weight: 700;
+    font-size: 3rem;
+    color: #343a40;
+  }
+  
+  .section-header .underline {
+    width: 60px;
+    height: 4px;
+    background: #6c63ff;
+    margin: 20px auto;
+    border-radius: 10px;
+  }
+  
+  .about-text {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #555;
+  }
+  
+  .timeline {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .timeline-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .timeline-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    margin-right: 20px;
+    object-fit: cover;
+  }
+  
+  .timeline-content h5 {
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  .timeline-list {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .timeline-list-item {
+    margin-bottom: 10px;
+    font-size: 1rem;
+  }
+  
+  .skill-item {
+    margin-bottom: 20px;
+  }
+  
+  .skill-name {
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+  
+  .skill-bar {
+    background: #e9ecef;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 20px;
+  }
+  
+  .skill-progress {
+    background: #6c63ff;
+    color: white;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 10px;
+    border-radius: 20px;
+    transition: width 1s ease-in-out;
+  }
+  
+  .service-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+  }
+  
+  .section-title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #343a40;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
